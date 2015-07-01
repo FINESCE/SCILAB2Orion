@@ -32,7 +32,7 @@ public class Scilab2OrionTimer {
 		String currentTime = null;
 		Scilab2Orion rtlab2Orion = new Scilab2Orion("scilab2orion.properties", currentTime);
 		Timer timer = new Timer();
-		
+		//schedule job
 		timer.schedule(rtlab2Orion, 0, 900000); //call every 15 min
 	}
 

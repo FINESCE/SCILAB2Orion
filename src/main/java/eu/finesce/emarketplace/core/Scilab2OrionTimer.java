@@ -30,7 +30,9 @@ public class Scilab2OrionTimer {
 	
 	public static void main(String[] args) throws InterruptedException {
 		String currentTime = null;
+		//
 		Scilab2Orion rtlab2Orion = new Scilab2Orion("scilab2orion.properties", currentTime);
+		//
 		Timer timer = new Timer();
 		//to schedule every 15mins
 		//		
